@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="Css/mycss.css">
+	<title>Signup page</title>
+</head>
+<body>
+	<header><h1>IREPORTER</h1></header>
+	<div class="main">
+		<div class="login-box">
+			<div class="info">Sign up form</div>
+			<p class="alerts" id = "invalid"></p>
+			<form method="POST" class="form-box" id = "signup-form">
+				<input type="text" name="Firstname"	id ="firstname" class="input-box" placeholder="Firstname" required><br>
+				<input type="text" name="lastname"	id ="lastname" class="input-box" placeholder="lastname" required><br>
+				<input type="text" name="orthernames" id = "othernames" class="input-box" placeholder="orthernames" required><br>
+				<input type="text" name="phonenumber" id = "phone_number"	 class="input-box" placeholder="phone number eg: +2567xxxxxxxx" required><br>
+				<input type="text" name="email"	id = "email" class="input-box" placeholder="email address" required><br>
+				<input type="text" name="username"	id ="username" class="input-box" placeholder="username" required><br>
+				<input type="password" name="password" id = "password" class="input-box" placeholder="password" required><br>
+				<!-- <input type="password" name="password" class="input-box" placeholder="confirm password" required><br>
+				<input type="checkbox" name="checkbox" class="remember"><span>Add geolocation</span>
+				<input type="text" name="latitude"	 class="input-box" placeholder="Latitude" disabled><br>
+				<input type="text" name="longitude"	 class="input-box" placeholder="Longitude" disabled><br> -->
+				<input type="submit" name="submit" id = "submit" value="Sign up" class="signup-btn">
+				
+			</form>
+		</div>
+	</div>
+	<script src="script/signup.js"></script>
+
+</body>
+</html>
