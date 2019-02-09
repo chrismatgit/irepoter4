@@ -200,8 +200,7 @@ class Incident_validation:
             
     @staticmethod
     def validate_red_flag_location(location):
-        if not location or location == "" or not isinstance(location, list) \
-        or not len(location)==2 or not isinstance(location[0], float) or not isinstance(location[1], float):
+        if not location or location == "":
             return {
                 'status': 400,
                 'error': 'location field can not be left empty and should be a list'
