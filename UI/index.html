@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Css/mycss.css">
+	<title>Login page</title>
+</head>
+<body>
+	<header><h1>IREPORTER</h1></header>
+	<div class="main">
+		<div class="login-box">
+			<div class="info">Login form</div>
+			<p class="alerts" id = "invalid"></p>
+			<form method="POST" class="form-box" id = "login-form">
+				<input type="text" name="username"	id="username" class="input-box" placeholder="username" required><br>
+				<input type="password" name="password" id ="password" class="input-box" placeholder="password" required><br>
+				<input type="checkbox" name="checkbox" class="remember"><span>Remmber me</span>
+				<!-- <a href="#" class="forget-pass">Forget Password</a><br> -->
+				<input type="submit" name="submit" id="submit" value="Login" class="login-btn">
+				<div class="account">Have an account? click <a href="signup.html" class="createaccount">here</a>  to create one</div>
+				
+				
+			</form>
+			
+		</div>
+	</div>
+	<script src="script/login.js"></script>
+</body>
+</html>
