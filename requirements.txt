@@ -168,7 +168,7 @@ pytz==2018.7
 pyxdg==0.25
 PyYAML==3.13
 query-string==2018.11.20
-reportbug==7.5.1
+# reportbug==7.5.1
 request==2018.11.20
 requests==2.20.1
 requests-file==1.4.3
