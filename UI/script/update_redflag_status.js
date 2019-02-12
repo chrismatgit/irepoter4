@@ -1,7 +1,7 @@
 document.getElementById('update_form').addEventListener('submit', redflag)
 
 var token = localStorage.getItem('token')
-const url = 'http://127.0.0.1:5000/api/v1/red-flags'
+const url = 'https://ireporter-challenge-4-chris.herokuapp.com/api/v1/red-flags'
 
 function redflag(event) {
     event.preventDefault()

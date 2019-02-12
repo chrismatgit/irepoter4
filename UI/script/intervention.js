@@ -1,7 +1,7 @@
 document.getElementById('intervention-form').addEventListener('submit', intervention)
 
 var token = localStorage.getItem('token')
-const url = 'http://127.0.0.1:5000/api/v1/interventions'
+const url = 'https://ireporter-challenge-4-chris.herokuapp.com/api/v1/interventions'
 
 function intervention(event) {
     event.preventDefault()

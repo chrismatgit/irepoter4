@@ -1,7 +1,7 @@
 document.getElementById('getall').addEventListener('click', get_all_redflags)
 
 var token = localStorage.getItem('token')
-const url = 'http://127.0.0.1:5000/api/v1/red-flags'
+const url = 'https://ireporter-challenge-4-chris.herokuapp.com/api/v1/red-flags'
 let tableBody = document.querySelector('table > tbody')
 
 function get_all_redflags(event) {

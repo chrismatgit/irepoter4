@@ -24,10 +24,10 @@ class DatabaseConnection:
             
             else:
                 #sample of an online database
-                self.db_name = 'da3ie1jp2ag7h8'
-                self.user ='qczqujabhbhsev'
-                self.host='ec2-54-235-68-3.compute-1.amazonaws.com'
-                self.password='8cb120b890a130967951018fb17ea866304e3f6a9e980af5b84fe4ebd37377be'
+                self.db_name = 'd57o0693hogkt6'
+                self.user ='hjkkvlmbztbkhf'
+                self.host='ec2-54-225-89-195.compute-1.amazonaws.com'
+                self.password='69b78696ba99441244baeee6265dc35df0fe69664838071920a9ee873147fe16'
                 self.port = 5432
 
             self.connection = psycopg2.connect(dbname=self.db_name, user=self.user, host=self.host, password=self.password, port =self.port)

@@ -1,6 +1,6 @@
 document.getElementById('signup-form').addEventListener('submit', register_user)
 
-const url = 'http://127.0.0.1:5000/api/v1/auth/signup'
+const url = 'https://ireporter-challenge-4-chris.herokuapp.com/api/v1/auth/signup'
 
 function register_user(event) {
     event.preventDefault()
