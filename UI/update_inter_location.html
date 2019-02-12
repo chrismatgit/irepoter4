@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="Css/mycss.css">
         <link rel="stylesheet" type="text/css" href="Css/css.css">
-        <title>Red-flag | page</title>
+        <title>Update | page</title>
     </head>
     <body>
         <div class="block content margin-auto">
@@ -15,7 +15,7 @@
                     <a href="index.html"><button class="ease-in-out-all-quick">Logout</button></a>
                 </div>
             </header>
-
+            
                 <!-- div containing diffent menu the 1/4 of the site -->
                 <div class="inline-block quater  centered grid left">
                     <!-- list containing my menu  -->
@@ -26,7 +26,7 @@
                         <a href="get_all_red_flags.html" class="block item ease-in-out-all-quick" ><li id="menu-history" cmd-click="select-menu=>history">Get Red-flags</li></a>
                     </ul>
                     <!-- end of the menu -->
-
+        
                 </div><div class="inline-block third-quarter centered grid right">
                     <div class="block box align-left" id="movies">
                         <div class="title">
@@ -34,35 +34,20 @@
                             <div class="results centered">8</div>
                         </div>
                         <hr class="soften">
-                        <div class="info" id="info">History</div><br>
+                        <div class="info" id="info">Update Intervention location...</div>
                         <p class="alerts" id = "invalid"></p>
-                        <form action="" id = "getall">
-                        <input type="submit" name="submit" value="Refresh To get all the Interventions" class="centered signup-btn" id= "click"><br></form>
-                        <table class="cart align-left">
-                            <thead>
-                                <tr>
-                                    <td>Id</td>
-                                    <td>Createdon</td>
-                                    <td>Createdby</td>
-                                    <td>Inctype</td>
-                                    <td>Location</td>
-                                    <td>Status</td>
-                                    <td>Image</td>
-                                    <td>Video</td>
-                                    <td>Comment</td>
-                                    <td>Action</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    
+                            <form action="#" method="POST" class="form-box" id="update_form">
+                                <input type="number" name="intervention_id" id="intervention_id"	 class="input-box" placeholder="confirm with the intervention_id" required><br>
+                                <input type="text" name="location" id="location" class="input-box" placeholder="Use this format eg: [1212.2, 155.3]. for location. 1st no as longitude and 2nd as latitude " required><br>
+                                <input type="submit" name="submit" value="Update Now" class="signup-btn" id="submit">
+                            </form>
                     </div>
                     <!-- end of the div containing different movie and the grid display-->
-
+                    
                 </div>
             </div>
         </div>
-        <script src="script/get_all_intervention.js"></script>
+        <script src="script/update_intervention_location.js"></script>
     </body>
 </html>
+	
