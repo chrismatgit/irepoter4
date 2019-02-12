@@ -192,7 +192,7 @@ tornado==5.1.1
 traitlets==4.3.2
 typed-ast==1.2.0
 tzlocal==1.5.1
-unattended-upgrades==0.1
+# unattended-upgrades==0.1
 urllib3==1.24.1
 urwid==2.0.1
 virtualenv==16.2.0
