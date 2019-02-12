@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="Css/mycss.css">
         <link rel="stylesheet" type="text/css" href="Css/css.css">
-        <title>Home | page</title>
+        <title>Red-flag | page</title>
     </head>
     <body>
         <div class="block content margin-auto">
@@ -15,7 +15,7 @@
                     <a href="index.html"><button class="ease-in-out-all-quick">Logout</button></a>
                 </div>
             </header>
-            
+
                 <!-- div containing diffent menu the 1/4 of the site -->
                 <div class="inline-block quater  centered grid left">
                     <!-- list containing my menu  -->
@@ -25,7 +25,7 @@
                         <a href="get_all_users.html" class="block item ease-in-out-all-quick"><li id="menu-cart" cmd-click="select-menu=>cart">Get all Users</li></a>
                     </ul>
                     <!-- end of the menu -->
-        
+
                 </div><div class="inline-block third-quarter centered grid right">
                     <div class="block box align-left" id="movies">
                         <div class="title">
@@ -33,14 +33,36 @@
                             <div class="results centered">8</div>
                         </div>
                         <hr class="soften">
-                        <br><h2 class="tit">WELCOME TO iREPORTER ADMIN</h2>
-                        <p>Place reserverd for more details about the system</p>    
+                        <div class="info" id="info">Users</div><br>
+                        <p class="alerts" id = "invalid"></p>
+                        <form action="" id = "getall">
+                        <input type="submit" name="submit" value="Click here To get all users" class="centered signup-btn" id= "click"><br></form>
+                        <table class="cart align-left">
+                            <thead>
+                                <tr>
+                                    <td>Id</td>
+                                    <td>firstname</td>
+                                    <td>lastname</td>
+                                    <td>othernames</td>
+                                    <td>email</td>
+                                    <td>phone_number</td>
+                                    <td>username</td>
+                                    <td>password</td>
+                                    <td>registered</td>
+                                    <td>isadmin</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    
+                            </tbody>
+                        </table>
+                    
                     </div>
                     <!-- end of the div containing different movie and the grid display-->
-                    
+
                 </div>
             </div>
         </div>
+        <script src="script/admin_get_users.js"></script>
     </body>
 </html>
-	
