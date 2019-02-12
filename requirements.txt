@@ -157,7 +157,7 @@ pysnmp==4.4.6
 PySocks==1.6.8
 pytest==4.0.0
 pytest-cov==2.6.0
-python-apt==1.7.0
+# python-apt==1.7.0
 python-dateutil==2.6.1
 python-debian==0.1.33
 python-debianbts==2.7.2
