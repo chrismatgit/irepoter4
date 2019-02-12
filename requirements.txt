@@ -43,7 +43,7 @@ docopt==0.6.2
 ecdsa==0.13
 EditorConfig==0.12.1
 email-validator==1.0.3
-entrypoints==0.2.3.post3
+# entrypoints==0.2.3.post3
 enum34==1.1.6
 feedparser==5.2.1
 Flask==1.0.2
