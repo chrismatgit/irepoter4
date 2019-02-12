@@ -60,7 +60,7 @@ function get_all_interventions(event) {
                     intervention_comment.innerHTML = '' + intervention.comment
 
                     action = document.createElement('td')
-                    action.innerHTML = '<a href="update.html"><button class="block update-item">Update location</button><a href="update_comment.html"><button class="block update-item">Update comment</button></a><a href="delete_intervention.html"><button class="block remove-item" id="delete"> Delete</button></a>'
+                    action.innerHTML = '<a href="update_inter_location.html"><button class="block update-item">Update location</button><a href="update_comment.html"><button class="block update-item">Update comment</button></a><a href="delete_intervention.html"><button class="block remove-item" id="delete"> Delete</button></a>'
 
                     newRow.appendChild(intervention_intervention_id)
                     newRow.appendChild(intervention_createdon)
