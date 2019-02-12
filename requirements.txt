@@ -1,6 +1,6 @@
 AdvancedHTTPServer==2.0.11
 ajpy==0.0.4
-alembic==1.0.0.dev0
+# alembic==1.0.0.dev0
 altgraph==0.16.1
 argcomplete==1.8.1
 argh==0.26.2
