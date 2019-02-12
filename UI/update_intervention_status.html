@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Css/mycss.css">
+        <link rel="stylesheet" type="text/css" href="Css/css.css">
+        <title>Update | page</title>
+    </head>
+    <body>
+        <div class="block content margin-auto">
+            <header><h1>iREPORTER</h1>
+                <div class="set-right">
+                    <a href="profile.html"><button class="ease-in-out-all-quick">Profile</button></a>
+                    <a href="index.html"><button class="ease-in-out-all-quick">Logout</button></a>
+                </div>
+            </header>
+            
+                <!-- div containing diffent menu the 1/4 of the site -->
+                <div class="inline-block quater  centered grid left">
+                    <!-- list containing my menu  -->
+                    <ul class="menu align-left">
+                        <a href="admin_get_all_interventions.html" class="block item ease-in-out-all-quick" ><li id="menu-history" cmd-click="select-menu=>history">Get Interventions</li></a>
+                        <a href="admin_get_all_red_flags.html" class="block item ease-in-out-all-quick" ><li id="menu-history" cmd-click="select-menu=>history">Get Red-flags</li></a>
+                    </ul>
+                    <!-- end of the menu -->
+        
+                </div><div class="inline-block third-quarter centered grid right">
+                    <div class="block box align-left" id="movies">
+                        <div class="title">
+                            Notifications
+                            <div class="results centered">8</div>
+                        </div>
+                        <hr class="soften">
+                        <div class="info" id="info">Update status...</div>
+                        <p class="alerts" id = "invalid"></p>
+                            <form action="#" method="POST" class="form-box" id="update_form">
+                                <input type="number" name="intervention_id" id="intervention_id"	 class="input-box" placeholder="confirm with the intervention_id" required><br>
+                                <select class="category inline-block ease-in-out-all-quick" id="status">
+                                    <option>Select Status</option>
+                                    <option>under_investigation</option>
+                                    <option>rejected</option>
+                                    <option>resolved</option>
+                                </select><br><br>
+                                <input type="submit" name="submit" value="Update Now" class="signup-btn" id="submit">
+                            </form>
+                    </div>
+                    <!-- end of the div containing different movie and the grid display-->
+                    
+                </div>
+            </div>
+        </div>
+        <script src="script/update_intervention_status.js"></script>
+    </body>
+</html>
+	
